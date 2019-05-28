@@ -1,0 +1,67 @@
+.Box{
+    -fx-background-color: #ffff;
+    -fx-background-radius: 15px;
+    -fx-effect: dropshadow(three-pass-box,#9f9b9b, 50, 0, 0, 8);
+}
+.Text{
+    -fx-fill: #343434  ;
+}
+.TextField{
+    -fx-background-color: #ffff;
+    -fx-font: arial;
+    -fx-background-radius: 15px;
+    -fx-border-radius: 15px;
+    -fx-border-color: #dfe1e5;
+    -fx-border-width: 1px;
+    -fx-padding: 10px;
+    -fx-text-fill: #575757;
+}
+.BlueButton{
+    -fx-background-color: linear-gradient(to top, #0198e7, #00a5fb);
+    -fx-effect: dropshadow(three-pass-box,#9f9b9b, 10, 0, 0, 2);
+    -fx-text-fill: #ffff;
+}
+.BlueButton:hover{
+    -fx-background-color: #00a8fe;
+}
+
+.TextField:hover{
+    -fx-effect: dropshadow(three-pass-box,#dddddd, 15, 0, 0, 5);
+}
+.TextLink{
+    -fx-fill: #5f6368;
+}
+.TextLink:hover{
+    -fx-fill: #989ca0;
+}
+.sidebar{
+    -fx-background-color: #ffff;
+    -fx-effect: dropshadow(three-pass-box,#dddddd, 15, 0, 0, 5);
+}
+.ImageButton:hover{
+    -fx-scale-x: 1.03;
+    -fx-scale-y: 1.03;
+}
+.listBackground{
+     -fx-background-color: #ffff;
+     -fx-padding: 5px;
+ }
+.listBackground:hover{
+    -fx-background-color: #00a8ff;
+}
+.RedButton{
+    -fx-background-color: linear-gradient(to top, #dd1207, #fa4036);
+    -fx-effect: dropshadow(three-pass-box,#9f9b9b, 10, 0, 0, 2);
+    -fx-text-fill: #ffff;
+}
+.RedButton:hover{
+    -fx-background-color: #fb3c30;
+}
+.GreenButton{
+    -fx-background-color: linear-gradient(to top, #06c13c, #08d744);
+    -fx-effect: dropshadow(three-pass-box,#9f9b9b, 10, 0, 0, 2);
+    -fx-text-fill: #ffff;
+}
+.GreenButton:hover{
+    -fx-background-color: #1ae454;
+}

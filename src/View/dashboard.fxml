@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="653.0" prefWidth="900.0" style="-fx-background-color: #f3f3f3;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="653.0" prefWidth="73.0" styleClass="sidebar" stylesheets="@style.css">
+         <children>
+            <ImageView fitHeight="55.0" fitWidth="61.0" layoutX="9.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Assets/images/logo.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="48.0" fitWidth="54.0" layoutX="13.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true" styleClass="ImageButton">
+               <image>
+                  <Image url="@../../Assets/images/doctors.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="48.0" fitWidth="54.0" layoutX="13.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true" styleClass="ImageButton">
+               <image>
+                  <Image url="@../../Assets/images/building.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="48.0" fitWidth="54.0" layoutX="12.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true" styleClass="ImageButton">
+               <image>
+                  <Image url="@../../Assets/images/patients.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="28.0" fitWidth="46.0" layoutX="22.0" layoutY="605.0" pickOnBounds="true" preserveRatio="true" styleClass="ImageButton">
+               <image>
+                  <Image url="@../../Assets/images/shutdown.png" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00a8ff" height="48.0" layoutX="68.0" layoutY="97.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="3.0" />
+         </children>
+      </Pane>
+      <Pane layoutX="516.0" layoutY="36.0" prefHeight="581.0" prefWidth="358.0" styleClass="Box" stylesheets="@style.css">
+         <children>
+            <Text layoutX="116.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Text" text="لیست دکتران">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfe1e5" height="1.0" layoutX="29.0" layoutY="79.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="300.0" />
+            <ScrollPane layoutX="29.0" layoutY="86.0" prefHeight="409.0" prefWidth="312.0" style="-fx-background-color: #fff;">
+               <content>
+                  <VBox style="-fx-background-color: #fff;">
+                     <children>
+                        <Pane prefHeight="61.0" prefWidth="310.0" styleClass="listBackground">
+                           <children>
+                              <Circle fill="#8d0b0b" layoutX="264.0" layoutY="34.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                              <Text fill="#343434" layoutX="168.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="حمید جبلی" wrappingWidth="95.4329833984375">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#5f6368" layoutX="159.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="جراح عمومی" wrappingWidth="95.4329833984375">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                              </Text>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfe1e5" height="1.0" layoutX="-1.0" layoutY="60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="300.0" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="10.0" layoutY="10.0" prefHeight="61.0" prefWidth="310.0" styleClass="listBackground">
+                           <children>
+                              <Circle fill="#8d0b0b" layoutX="264.0" layoutY="34.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                              <Text fill="#343434" layoutX="168.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="حمید جبلی" wrappingWidth="95.4329833984375">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#5f6368" layoutX="159.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="جراح عمومی" wrappingWidth="95.4329833984375">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                              </Text>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfe1e5" height="1.0" layoutX="-1.0" layoutY="60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="300.0" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="10.0" layoutY="71.0" prefHeight="61.0" prefWidth="310.0" styleClass="listBackground">
+                           <children>
+                              <Circle fill="#8d0b0b" layoutX="264.0" layoutY="34.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                              <Text fill="#343434" layoutX="168.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="حمید جبلی" wrappingWidth="95.4329833984375">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#5f6368" layoutX="159.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="جراح عمومی" wrappingWidth="95.4329833984375">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                              </Text>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfe1e5" height="1.0" layoutX="-1.0" layoutY="60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="300.0" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="10.0" layoutY="132.0" prefHeight="61.0" prefWidth="310.0" styleClass="listBackground">
+                           <children>
+                              <Circle fill="#8d0b0b" layoutX="264.0" layoutY="34.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                              <Text fill="#343434" layoutX="168.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="حمید جبلی" wrappingWidth="95.4329833984375">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#5f6368" layoutX="159.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="جراح عمومی" wrappingWidth="95.4329833984375">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                              </Text>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfe1e5" height="1.0" layoutX="-1.0" layoutY="60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="300.0" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="10.0" layoutY="193.0" prefHeight="61.0" prefWidth="310.0" styleClass="listBackground">
+                           <children>
+                              <Circle fill="#8d0b0b" layoutX="264.0" layoutY="34.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                              <Text fill="#343434" layoutX="168.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="حمید جبلی" wrappingWidth="95.4329833984375">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#5f6368" layoutX="159.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="جراح عمومی" wrappingWidth="95.4329833984375">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                              </Text>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfe1e5" height="1.0" layoutX="-1.0" layoutY="60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="300.0" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="10.0" layoutY="254.0" prefHeight="61.0" prefWidth="310.0" styleClass="listBackground">
+                           <children>
+                              <Circle fill="#8d0b0b" layoutX="264.0" layoutY="34.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                              <Text fill="#343434" layoutX="168.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="حمید جبلی" wrappingWidth="95.4329833984375">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#5f6368" layoutX="159.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="جراح عمومی" wrappingWidth="95.4329833984375">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                              </Text>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfe1e5" height="1.0" layoutX="-1.0" layoutY="60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="300.0" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </VBox>
+               </content>
+            </ScrollPane>
+            <Button layoutX="242.0" layoutY="525.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="101.0" styleClass="BlueButton" text="ویرایش" />
+            <Button layoutX="137.0" layoutY="526.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="101.0" styleClass="RedButton" text="حذف" />
+            <Button layoutX="31.0" layoutY="526.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="101.0" styleClass="GreenButton" text="اضافه" />
+         </children>
+      </Pane>
+      <Pane centerShape="false" layoutX="108.0" layoutY="36.0" prefHeight="581.0" prefWidth="358.0" styleClass="Box" stylesheets="@style.css">
+         <children>
+            <Text layoutX="116.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Text" text="لیست پرستاران">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfe1e5" height="1.0" layoutX="29.0" layoutY="79.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="300.0" />
+            <ScrollPane layoutX="29.0" layoutY="86.0" prefHeight="409.0" prefWidth="312.0" style="-fx-background-color: #fff;">
+               <content>
+                  <VBox style="-fx-background-color: #fff;">
+                     <children>
+                        <Pane prefHeight="61.0" prefWidth="310.0" styleClass="listBackground">
+                           <children>
+                              <Circle fill="#8d0b0b" layoutX="264.0" layoutY="34.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                              <Text fill="#343434" layoutX="168.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="حمید جبلی" wrappingWidth="95.4329833984375">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#5f6368" layoutX="159.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="جراح عمومی" wrappingWidth="95.4329833984375">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                              </Text>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfe1e5" height="1.0" layoutX="-1.0" layoutY="60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="300.0" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="10.0" layoutY="10.0" prefHeight="61.0" prefWidth="310.0" styleClass="listBackground">
+                           <children>
+                              <Circle fill="#8d0b0b" layoutX="264.0" layoutY="34.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                              <Text fill="#343434" layoutX="168.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="حمید جبلی" wrappingWidth="95.4329833984375">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#5f6368" layoutX="159.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="جراح عمومی" wrappingWidth="95.4329833984375">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                              </Text>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfe1e5" height="1.0" layoutX="-1.0" layoutY="60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="300.0" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="10.0" layoutY="71.0" prefHeight="61.0" prefWidth="310.0" styleClass="listBackground">
+                           <children>
+                              <Circle fill="#8d0b0b" layoutX="264.0" layoutY="34.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                              <Text fill="#343434" layoutX="168.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="حمید جبلی" wrappingWidth="95.4329833984375">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#5f6368" layoutX="159.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="جراح عمومی" wrappingWidth="95.4329833984375">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                              </Text>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfe1e5" height="1.0" layoutX="-1.0" layoutY="60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="300.0" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="10.0" layoutY="132.0" prefHeight="61.0" prefWidth="310.0" styleClass="listBackground">
+                           <children>
+                              <Circle fill="#8d0b0b" layoutX="264.0" layoutY="34.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                              <Text fill="#343434" layoutX="168.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="حمید جبلی" wrappingWidth="95.4329833984375">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#5f6368" layoutX="159.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="جراح عمومی" wrappingWidth="95.4329833984375">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                              </Text>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfe1e5" height="1.0" layoutX="-1.0" layoutY="60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="300.0" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="10.0" layoutY="193.0" prefHeight="61.0" prefWidth="310.0" styleClass="listBackground">
+                           <children>
+                              <Circle fill="#8d0b0b" layoutX="264.0" layoutY="34.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                              <Text fill="#343434" layoutX="168.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="حمید جبلی" wrappingWidth="95.4329833984375">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#5f6368" layoutX="159.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="جراح عمومی" wrappingWidth="95.4329833984375">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                              </Text>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfe1e5" height="1.0" layoutX="-1.0" layoutY="60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="300.0" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="10.0" layoutY="254.0" prefHeight="61.0" prefWidth="310.0" styleClass="listBackground">
+                           <children>
+                              <Circle fill="#8d0b0b" layoutX="264.0" layoutY="34.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                              <Text fill="#343434" layoutX="168.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="حمید جبلی" wrappingWidth="95.4329833984375">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#5f6368" layoutX="159.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="جراح عمومی" wrappingWidth="95.4329833984375">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                              </Text>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfe1e5" height="1.0" layoutX="-1.0" layoutY="60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="300.0" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </VBox>
+               </content>
+            </ScrollPane>
+            <Button layoutX="242.0" layoutY="525.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="101.0" styleClass="BlueButton" text="ویرایش" />
+            <Button layoutX="137.0" layoutY="526.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="101.0" styleClass="RedButton" text="حذف" />
+            <Button layoutX="31.0" layoutY="526.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="101.0" styleClass="GreenButton" text="اضافه" />
+         </children>
+      </Pane>
+   </children>
+</Pane>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Assets/images/background.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="155.0" layoutY="55.0" prefHeight="491.0" prefWidth="490.0" styleClass="Box">
+         <children>
+            <TextField layoutX="64.0" layoutY="228.0" prefHeight="45.0" prefWidth="365.0" promptText="username" styleClass="TextField">
+               <font>
+                  <Font name="Arial" size="15.0" />
+               </font>
+            </TextField>
+            <Button layoutX="195.0" layoutY="380.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="102.0" styleClass="BlueButton" text="ورود">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <PasswordField layoutX="65.0" layoutY="288.0" prefHeight="45.0" prefWidth="365.0" promptText="password" styleClass="TextField">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </PasswordField>
+            <ImageView fitHeight="95.0" fitWidth="102.0" layoutX="200.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Assets/images/logo.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="163.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Text" text="مدیریت بیمارستان">
+               <font>
+                  <Font name="Arial" size="29.0" />
+               </font>
+            </Text>
+            <Text layoutX="438.0" layoutY="475.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="TextLink" text="خروج">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Text>
+            <Text layoutX="365.0" layoutY="477.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="TextLink" text="درباره ما">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <TextField layoutX="-49.0" layoutY="55.0" prefHeight="25.0" prefWidth="31.0" />
+   </children>
+</Pane>
